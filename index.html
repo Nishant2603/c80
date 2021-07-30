@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>nishant's guest list</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Guest List</h1>
+        <hr>
+        <br>
+        <input id="guest_name" type="text" placeholder="Enter The Guest's Name">
+        <button id="submit_btn" onclick="submit()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            SUBMIT
+        </button>
+        <div id="display"></div>
+        <hr>
+        <h1>Your Guest List</h1>
+        <button id="show_btn" onclick="show()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            SHOW
+        </button>
+        <div id="show">
+        </div>
+        <hr>
+        <h1 id="sort_heading">Sort The List</h1>
+        <button id="sort_btn" onclick="sorting()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            SORT
+        </button>
+        <div id="sorted_list"></div>
+        <hr id="sort_special">
+        <h1>Find The Person</h1>
+        <input id="find_input" type="text" placeholder="Find The Name">
+        <button id="find_btn" onclick="finding()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            FIND
+        </button>
+        <div id="found_you"></div>
+        <hr>
+        <script src="main.js"></script>
+    </body>
+</html>
